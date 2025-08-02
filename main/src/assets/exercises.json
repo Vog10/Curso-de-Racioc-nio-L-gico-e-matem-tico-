@@ -1,0 +1,199 @@
+{
+    "module1": [
+        {
+            "question": "Qual das seguintes sentenças é uma proposição?",
+            "options": [
+                "a) Que horas são?",
+                "b) O Brasil é o maior país da América do Sul.",
+                "c) Feche a porta!",
+                "d) x + 3 = 7"
+            ],
+            "answer": "b",
+            "explanation": "Uma proposição é uma sentença declarativa que pode ser classificada como verdadeira ou falsa. 'O Brasil é o maior país da América do Sul.' é uma afirmação que pode ser verificada como verdadeira."
+        },
+        {
+            "question": "Se P é 'Está chovendo' e Q é 'Está frio', qual a representação lógica de 'Não está chovendo e está frio'?",
+            "options": [
+                "a) ¬P ∨ Q",
+                "b) ¬P ∧ Q",
+                "c) P ∧ ¬Q",
+                "d) P ∨ ¬Q"
+            ],
+            "answer": "b",
+            "explanation": "'Não está chovendo' é a negação de P (¬P). 'E' é o conectivo de conjunção (∧). 'Está frio' é Q. Portanto, ¬P ∧ Q."
+        },
+        {
+            "question": "Qual o valor lógico da proposição 'Se 2 + 2 = 4, então o Sol é feito de queijo'?",
+            "options": [
+                "a) Verdadeiro",
+                "b) Falso",
+                "c) Depende",
+                "d) Nenhuma das anteriores"
+            ],
+            "answer": "b",
+            "explanation": "Em uma condicional (P → Q), se P é verdadeiro e Q é falso, a condicional é falsa. '2 + 2 = 4' é verdadeiro, mas 'o Sol é feito de queijo' é falso. Portanto, a proposição é falsa."
+        },
+        {
+            "question": "A negação da proposição 'João é alto e Maria é baixa' é: ",
+            "options": [
+                "a) João não é alto e Maria não é baixa.",
+                "b) João não é alto ou Maria não é baixa.",
+                "c) João é baixo ou Maria é alta.",
+                "d) Se João é alto, então Maria é baixa."
+            ],
+            "answer": "b",
+            "explanation": "Pela Lei de De Morgan, a negação de (P ∧ Q) é (¬P ∨ ¬Q). Assim, a negação de 'João é alto e Maria é baixa' é 'João não é alto ou Maria não é baixa'."
+        }
+    ],
+    "module2": [
+        {
+            "question": "Qual a negação da proposição 'Todos os gatos são pretos'?",
+            "options": [
+                "a) Nenhum gato é preto.",
+                "b) Todos os gatos não são pretos.",
+                "c) Existe pelo menos um gato que não é preto.",
+                "d) Existe apenas um gato preto."
+            ],
+            "answer": "c",
+            "explanation": "A negação de um quantificador universal (Todos) é um quantificador existencial (Existe pelo menos um) com a negação do predicado. Portanto, 'Existe pelo menos um gato que não é preto'."
+        },
+        {
+            "question": "Se P(x) é 'x é um número primo', qual a representação de 'Existe um único número x tal que x é um número primo'?",
+            "options": [
+                "a) ∀x P(x)",
+                "b) ∃x P(x)",
+                "c) ∃!x P(x)",
+                "d) ¬∃x P(x)"
+            ],
+            "answer": "c",
+            "explanation": "O quantificador existencial único (∃!) é usado para indicar que existe exatamente um elemento que satisfaz a condição."
+        },
+        {
+            "question": "A negação de 'Existe um aluno que gosta de matemática' é:",
+            "options": [
+                "a) Existe um aluno que não gosta de matemática.",
+                "b) Todos os alunos gostam de matemática.",
+                "c) Nenhum aluno gosta de matemática.",
+                "d) Alguns alunos não gostam de matemática."
+            ],
+            "answer": "c",
+            "explanation": "A negação de um quantificador existencial (Existe) é um quantificador universal (Todos/Nenhum) com a negação do predicado. 'Nenhum aluno gosta de matemática' ou 'Todos os alunos não gostam de matemática'."
+        }
+    ],
+    "module3": [
+        {
+            "question": "Se A = {1, 2, 3} e B = {3, 4, 5}, qual é o conjunto A ∪ B?",
+            "options": [
+                "a) {3}",
+                "b) {1, 2, 3, 4, 5}",
+                "c) {1, 2}",
+                "d) {4, 5}"
+            ],
+            "answer": "b",
+            "explanation": "A união de dois conjuntos inclui todos os elementos que pertencem a pelo menos um dos conjuntos."
+        },
+        {
+            "question": "Quanto é 25% de 80?",
+            "options": [
+                "a) 10",
+                "b) 15",
+                "c) 20",
+                "d) 25"
+            ],
+            "answer": "c",
+            "explanation": "25% de 80 = (25/100) * 80 = 0.25 * 80 = 20."
+        },
+        {
+            "question": "Se 3 operários constroem um muro em 12 dias, quantos dias levarão 4 operários para construir o mesmo muro?",
+            "options": [
+                "a) 9 dias",
+                "b) 10 dias",
+                "c) 15 dias",
+                "d) 16 dias"
+            ],
+            "answer": "a",
+            "explanation": "É uma relação inversamente proporcional. 3 operários * 12 dias = 4 operários * x dias. 36 = 4x. x = 9 dias."
+        },
+        {
+            "question": "De quantas maneiras podemos organizar 4 livros diferentes em uma prateleira?",
+            "options": [
+                "a) 4",
+                "b) 12",
+                "c) 24",
+                "d) 16"
+            ],
+            "answer": "c",
+            "explanation": "É uma permutação de 4 elementos: P(4) = 4! = 4 * 3 * 2 * 1 = 24."
+        }
+    ],
+    "module4": [
+        {
+            "question": "Em uma pesquisa com 100 pessoas, 60 gostam de café, 50 gostam de chá e 30 gostam de ambos. Quantas não gostam de nenhuma das duas bebidas?",
+            "options": [
+                "a) 10",
+                "b) 20",
+                "c) 30",
+                "d) 40"
+            ],
+            "answer": "b",
+            "explanation": "Gostam apenas de café: 60 - 30 = 30. Gostam apenas de chá: 50 - 30 = 20. Total que gosta de pelo menos um: 30 + 20 + 30 = 80. Não gostam de nenhuma: 100 - 80 = 20."
+        },
+        {
+            "question": "Qual o próximo número na sequência: 2, 5, 8, 11, 14, ...?",
+            "options": [
+                "a) 15",
+                "b) 16",
+                "c) 17",
+                "d) 18"
+            ],
+            "answer": "c",
+            "explanation": "A sequência é uma progressão aritmética com razão 3. 14 + 3 = 17."
+        },
+        {
+            "question": "A diz: 'B é um mentiroso'. B diz: 'A e eu somos de tipos diferentes'. Se mentirosos sempre mentem e honestos sempre falam a verdade, quem é A e quem é B?",
+            "options": [
+                "a) A é mentiroso, B é honesto.",
+                "b) A é honesto, B é mentiroso.",
+                "c) Ambos são honestos.",
+                "d) Ambos são mentirosos."
+            ],
+            "answer": "a",
+            "explanation": "Se A fosse honesto, B seria mentiroso. Se B fosse mentiroso, sua afirmação 'A e eu somos de tipos diferentes' seria falsa, o que significa que eles seriam do mesmo tipo. Isso contradiz A ser honesto e B ser mentiroso. Portanto, A deve ser mentiroso. Se A é mentiroso, sua afirmação 'B é um mentiroso' é falsa, o que significa que B é honesto. Se B é honesto, sua afirmação 'A e eu somos de tipos diferentes' é verdadeira, o que é consistente com A ser mentiroso e B ser honesto."
+        }
+    ],
+    "module5": [
+        {
+            "question": "Um gráfico de barras é mais adequado para: ",
+            "options": [
+                "a) Mostrar tendências ao longo do tempo.",
+                "b) Representar partes de um todo.",
+                "c) Comparar quantidades entre diferentes categorias.",
+                "d) Mostrar a distribuição de frequências de dados contínuos."
+            ],
+            "answer": "c",
+            "explanation": "Gráficos de barras são ideais para comparar valores entre categorias distintas."
+        },
+        {
+            "question": "Qual das seguintes é uma falácia ad hominem?",
+            "options": [
+                "a) Se chove, a rua fica molhada. A rua está molhada. Logo, choveu.",
+                "b) Você não pode falar sobre política porque não tem diploma universitário.",
+                "c) Ou você está comigo ou está contra mim.",
+                "d) Ninguém provou que fantasmas não existem, logo eles existem."
+            ],
+            "answer": "b",
+            "explanation": "A falácia ad hominem ataca a pessoa que faz o argumento, em vez de refutar o argumento em si."
+        },
+        {
+            "question": "Na tomada de decisão, a tendência a buscar informações que confirmem nossas crenças é conhecida como:",
+            "options": [
+                "a) Ancoragem",
+                "b) Aversão à perda",
+                "c) Viés de confirmação",
+                "d) Excesso de confiança"
+            ],
+            "answer": "c",
+            "explanation": "O viés de confirmação é a tendência de interpretar novas evidências como confirmação das crenças existentes."
+        }
+    ]
+}
